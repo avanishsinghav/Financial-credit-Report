@@ -3,19 +3,19 @@
 This project uploads and parses Experian credit report XML files, extracts applicant and account details, and displays them neatly in a React frontend.
 It uses Node.js (Express) for the backend, MongoDB for storage, and React for the UI.
 
-# 🚀 Features
+## Features
 
-. Upload and parse XML credit report files.
+- Upload and parse XML credit report files.
 
-. Automatically extract:
+- Automatically extract:
 
-     .Applicant details (Name, Mobile, PAN, Credit Score)
-     .Report summary (Total/Active/Closed Accounts, Balances)
-     .Credit account details (Banks, Account Numbers, Balances)
+  - Applicant details (Name, Mobile, PAN, Credit Score)
+  - Report summary (Total/Active/Closed Accounts, Balances)
+  - Credit account details (Banks, Account Numbers, Balances)
 
-.View all saved reports in a list.
+- View all saved reports in a list.
 
-.Click a report to view detailed data.
+- Click a report to view detailed data.
 
 # 🧩 Tech Stack
 
@@ -25,17 +25,17 @@ It uses Node.js (Express) for the backend, MongoDB for storage, and React for th
 
 **Database**: MongoDB
 
-🧪 Testing
+## 🧪 Testing
 
-Upload a valid XML credit report file.
+-Upload a valid XML credit report file.
 
-Confirm extracted details appear correctly:
+-Confirm extracted details appear correctly:
 
-    Name, PAN, Mobile, Credit Score
+    -Name, PAN, Mobile, Credit Score
 
-    Report Summary
+    -Report Summary
 
-    Credit Accounts
+    -Credit Accounts
 
 ## 🧾 Folder Structure
 
