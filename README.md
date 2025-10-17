@@ -27,15 +27,15 @@ It uses Node.js (Express) for the backend, MongoDB for storage, and React for th
 
 ## 🧪 Testing
 
--Upload a valid XML credit report file.
+- Upload a valid XML credit report file.
 
--Confirm extracted details appear correctly:
+- Confirm extracted details appear correctly:
 
-    -Name, PAN, Mobile, Credit Score
+  - Name, PAN, Mobile, Credit Score
 
-    -Report Summary
+  - Report Summary
 
-    -Credit Accounts
+  - Credit Accounts
 
 ## 🧾 Folder Structure
 
@@ -75,8 +75,8 @@ project-root/
 
 # 💡 Notes
 
-Ensure MongoDB is running before starting the backend.
+- Ensure MongoDB is running before starting the backend.
 
-env files should never be committed to GitHub.
+- env files should never be committed to GitHub.
 
-XML files must follow the Experian structure (INProfileResponse root).
+- XML files must follow the Experian structure (INProfileResponse root).
