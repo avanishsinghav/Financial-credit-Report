@@ -7,7 +7,15 @@ import reportRoutes from "./routes/reportRoutes.js";
 
 dotenv.config();
 const app = express();
-app.use(cors());
+// app.use(cors());
+
+app.use(
+  cors({
+    origin: "https://financial-credit-report.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 app.use(express.json());
 connectDB();
 app.use("/api/upload", uploadRoutes);
