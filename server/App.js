@@ -12,10 +12,9 @@ app.use(express.json());
 app.use(
   cors({
     origin: "https://financial-credit-report.vercel.app",
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true,
   })
 );
+
 connectDB();
 app.use("/api/upload", uploadRoutes);
 app.use("/api/reports", reportRoutes);
